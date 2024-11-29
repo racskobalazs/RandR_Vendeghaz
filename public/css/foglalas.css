@@ -1,0 +1,64 @@
+.dayres {
+    background: red !important;
+    font-weight: bold;
+    border-left: 1px solid rgba(222, 226, 230, 1);
+    border-right: 1px solid rgba(222, 226, 230, 1);
+}
+
+.dayhalff {
+    background: linear-gradient(to bottom right, red 50%, rgba(119, 238, 89, 0.5) 51%);
+    font-weight: bold;
+    border-left: 1px solid rgba(222, 226, 230, 1);
+    border-right: 1px solid rgba(222, 226, 230, 1);
+}
+
+.dayhalfe {
+    background: linear-gradient(to top left, red 50%, rgba(119, 238, 89, 0.5) 51%);
+    font-weight: bold;
+    border-left: 1px solid rgba(222, 226, 230, 1);
+    border-right: 1px solid rgba(222, 226, 230, 1);
+}
+
+.day{
+    font-weight: 400;
+    border-left: 1px solid rgba(222, 226, 230, 1);
+    border-right: 1px solid rgba(222, 226, 230, 1);
+}
+
+.dayemp {
+    color: rgb(0, 0, 0, 0.4) !important;
+    background: rgba(255,255,255,0.3) !important;
+    border-left: 1px solid rgba(222, 226, 230, 1);
+    border-right: 1px solid rgba(222, 226, 230, 1);
+}
+
+
+.minta {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 10px; /*50px*/
+    height: 10px;
+    margin: 2px 0;
+    padding: 5px;
+    border: 2px solid #000;
+}
+
+.foglaltMinta {
+    background: red;
+}
+
+.szabadMinta {
+    background: rgb(245, 160, 6, 0.76);
+}
+
+a {
+    color: #1abc9c;
+    text-decoration: underline;
+}
+
+#calendar{
+    background-color: rgb(245, 160, 6, 0.76);
+    border-left: 1px solid rgba(222, 226, 230, 1);
+    border-right: 1px solid rgba(222, 226, 230, 1);
+}
